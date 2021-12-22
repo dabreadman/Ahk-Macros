@@ -103,10 +103,10 @@ Trigger2:
             send, {RButton Up}
             send, {1}
             DllCall("mouse_event", uint, 1, int, -400, int, 120)
-            Sleep 6000 ; t2
+            Sleep 6000 ; t2 
         }
         Else{
-            Sleep 8000
+            Sleep 8000 ; t1 + t2
         }
 
         ; go up to platform
